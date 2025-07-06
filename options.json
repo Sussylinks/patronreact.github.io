@@ -1,6 +1,6 @@
 {
   "main": "sussylinks.com",
-  "redirection": true,
+  "redirection": false,
   "redirectionTimer": 0,
   "domains": [
       {
