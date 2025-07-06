@@ -1,0 +1,20 @@
+{
+  "main": "sussylinks.com",
+  "redirection": true,
+  "redirectionTimer": 0,
+  "domains": [
+      {
+        "url": "patronvault.com",
+        "status": "offline"
+      },
+      {
+        "url": "sussylinks.com", 
+        "status": "online"
+      }
+    ],
+  "notice": {
+    "title": "Service Announcement",
+    "content": "We've launched our new domain sussylinks.com for temporary access! We trying to fix the old domain, so please check back soon for updates. Thank you for your patience!",
+    "date": "2024-01-16"
+  }
+}

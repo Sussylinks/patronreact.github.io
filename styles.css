@@ -1,0 +1,212 @@
+/* General Styling & Variables */
+:root {
+    --primary-color: #4cc2ff;
+    --primary-hover-color: #2aa3ff;
+    --background-color: #1f1f1f;
+    --card-background: rgba(45, 45, 45, 0.95);
+    --text-color: #ffffff;
+    --light-text-color: #cccccc;
+    --border-color: #3d3d3d;
+    --shadow-color: rgba(0, 0, 0, 0.25);
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+      Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    background-image: linear-gradient(45deg, #1a1a1a 0%, #2d2d2d 100%);
+  }
+
+  a{
+    text-decoration: none;
+  }
+  
+  /* Main Container Card */
+  .container {
+    border-radius: 16px;
+    box-shadow: 0 8px 32px var(--shadow-color);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  header {
+    background-color: rgba(76, 194, 255, 0.15);
+    color: white;
+    padding: 20px 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 1.75em;
+  }
+  
+  .content {
+    padding: 10px 30px;
+  }
+  
+  .content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: var(--light-text-color);
+    margin: 0 0 25px 0;
+  }
+  
+  /* URL List Styling */
+  .url-list {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .url-list h2 {
+    font-size: 1.2em;
+    color: var(--text-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .url-list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* URL List Styling */
+  .url-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 12px;
+  }
+  
+  .url-list a {
+    padding: 0;
+    flex-grow: 1;
+  }
+  
+  .domain-status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  
+  .domain-status.online {
+    background-color: rgba(39, 174, 96, 0.2);
+    color: #2ecc71;
+  }
+  
+  .domain-status.offline {
+    background-color: rgba(231, 76, 60, 0.2);
+    color: #e74c3c;
+  }
+  
+  .url-list li {
+    margin-bottom: 10px;
+    background-color: rgba(45, 45, 45, 0.5);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+  
+  .url-list li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .url-list a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 500;
+    word-break: break-all;
+    border-radius: 6px;
+  }
+  
+  /* Footer & Redirect Info */
+  .site-footer {
+    background-color: rgba(35, 35, 35, 0.5);
+    padding: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  #countdown {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .cancelButton {
+    background-color: rgba(108, 117, 125, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .cancelButton:hover {
+    background-color: rgba(108, 117, 125, 0.3);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
+  }
+  
+  .cancelButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+
+  /* News Section Styling */
+  .news-section {
+    background-color: #2ecc702d;
+    border-radius: 8px;    
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: left;
+  }
+
+  .news-item {
+    background-color: var(--news-background);
+    border: 1px solid var(--news-border);
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .news-item h3 {
+    color: var(--primary-color);
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+  }
+
+  .news-item p {
+    margin: 0 0 15px 0;
+    color: var(--light-text-color);
+    line-height: 1.5;
+  }
+
+  .news-date {
+    display: block;
+    color: var(--light-text-color);
+    font-size: 0.9em;
+    opacity: 0.8;
+  }
