@@ -1,6 +1,6 @@
 {
   "main": "sussylinks.com",
-  "redirection": true,
+  "redirection": false,
   "redirectionTimer": 0,
   "domains": [
       {
@@ -9,12 +9,13 @@
       },
       {
         "url": "sussylinks.com", 
-        "status": "online"
+        "status": "offline"
       }
     ],
   "notice": {
     "title": "Service Announcement",
-    "content": "We've launched our new domain sussylinks.com for temporary access! We trying to fix the old domain, so please check back soon for updates. Thank you for your patience!",
-    "date": "2024-01-16"
+    "content": "Our Site is under maintenance right now, please be patient, thank you.",
+    "date": "13-09-2025"
   }
 }
+
