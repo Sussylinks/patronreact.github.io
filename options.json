@@ -1,11 +1,11 @@
 {
-  "main": "sussylinks.com",
+  "main": "patronreact.com",
   "redirection": true,
   "redirectionTimer": 0,
   "domains": [
       {
         "url": "patronvault.com",
-        "status": "offline"
+        "status": "online"
       },
       {
         "url": "sussylinks.com", 
@@ -14,10 +14,11 @@
     ],
   "notice": {
     "title": "Service Announcement",
-    "content": "Sussylinks.com is our current domain.",
+    "content": "Patronreact.com is finally active.",
     "date": "2025-09-13"
   }
 }
+
 
 
 
