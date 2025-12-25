@@ -1,27 +1,15 @@
 {
-  "main": "patronreact.com",
+  "discord": "https://discord.com/invite/cwXGaRvj66",
   "redirection": true,
-  "redirectionTimer": 0,
+  "redirectionTimer": 1,
   "domains": [
-      {
-        "url": "patrontreact.com",
-        "status": "online"
-      },
-      {
-        "url": "sussylinks.com", 
-        "status": "online"
-      }
-    ],
+    {
+      "url": "patronreact.com"
+    }
+  ],
   "notice": {
     "title": "Service Announcement",
-    "content": "Patronreact.com is finally active.",
-    "date": "2025-10-08"
+    "content": "We are online!",
+    "date": "2025-12-25"
   }
 }
-
-
-
-
-
-
-
